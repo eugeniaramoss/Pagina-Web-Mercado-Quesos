@@ -1,0 +1,400 @@
+body {
+    margin: 48px 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    background-color: #fbfefd;
+    color: rgb(112, 112, 112);
+    line-height: 1.6;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nosotros,
+.compra,
+.servicios,
+.footer {
+    padding: 32px 0 32px;
+}
+
+.titu {
+    font-size: 40px;
+    color: #313131;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subt {
+    font-size: 24px;
+    display: block;
+    color: #ffb444;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.nav,
+.nosotros,
+.compra,
+.servicios,
+.footer {
+    max-width: 960px;
+    width: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.cajaInicio,
+.cajaNosotros,
+.cajaCompra,
+.cajaServicios,
+.cajaFooter {
+    display: grid;
+    gap: 24px;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: rgb(192, 192, 192);
+}
+
+.nav {
+    max-width: 1024px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+}
+
+.list {
+    margin-bottom: 1rem;
+}
+
+.activo,
+.link,
+.nombreLocal {
+    color: #707070;
+    font-weight: 500;
+}
+
+.nombreLocal:hover,
+.link:hover,
+.activo:hover {
+    color: #ff9900;
+}
+
+.activo {
+    color: #ffb444;
+}
+
+.inicio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/quesos.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cajaInicio {
+    height: auto;
+    align-items: center;
+}
+
+.infoInicio {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 4.25rem;
+    color: #ffb444;
+    margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.boton,
+.botonCompra {
+    display: inline-block;
+    background-color: #ffb444;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.boton:hover,
+.botonCompra:hover {
+    background-color: #ff9900;
+}
+
+.infoNosotros {
+    text-align: center;
+}
+
+.descripcion {
+    margin-bottom: 1.5rem;
+}
+
+.imgNos {
+    width: 280px;
+    border-radius: 0.5rem;
+    justify-self: center;
+}
+
+.cajaCompra {
+    justify-content: center;
+}
+
+.cajita {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px #ff9900;
+    padding: 0.75rem;
+}
+
+.imgCom {
+    width: 100px;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.nombre,
+.precio {
+    font-weight: 600;
+    color: #393939;
+}
+
+.nombre {
+    font-size: 0.938rem;
+}
+
+.detalles,
+.precio {
+    font-size: 0.813rem;
+}
+
+.detalles {
+    margin-bottom: 0.5rem;
+}
+
+.precio {
+    padding-bottom: 30px;
+}
+
+.botonCompra {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    padding: 10px 97px;
+}
+
+.cajaServicios {
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.infoServicios {
+    text-align: center;
+}
+
+.imgServ {
+    width: 64px;
+    height: 64px;
+    fill: #ffb444;
+    margin-bottom: 1rem;
+}
+
+.tituServ {
+    font-size: 1rem;
+    color: #393939;
+    margin-bottom: 0.5rem;
+}
+
+.descripcionServ {
+    padding: 0 1.5rem;
+}
+
+.cajaFooter {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 2rem;
+}
+
+.contenidoFooter {
+    text-align: center;
+}
+
+.nombreLocalFooter {
+    font-size: 1rem;
+    color: #ffb444;
+    font-weight: 600;
+}
+
+.descripcionFooter {
+    display: block;
+    font-size: 0.813rem;
+    margin: 0.25rem 0 1.5rem;
+}
+
+.social {
+    font-size: 1.5rem;
+    color: #393939;
+    margin-right: 1rem;
+}
+
+.tituFooter {
+    font-size: 1.25rem;
+    color: #393939;
+    margin-bottom: 1rem;
+}
+
+.linkF {
+    display: inline-block;
+    color: #707070;
+    margin-bottom: 0.5rem;
+}
+
+.linkF:hover {
+    color: #ffb444;
+}
+
+.derechos {
+    text-align: center;
+    font-size: 0.813rem;
+    color: #a6a6a6;
+    margin-top: 3.5rem;
+}
+
+footer {
+    border-top: 1px solid grey;
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        position: fixed;
+        margin-top: -100%;
+        margin-left: 0;
+        width: 100%;
+        padding: 24px 0 24px;
+        text-align: center;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
+        border-radius: 0 0 1rem 1rem;
+    }
+}
+
+@media screen and (min-width:576px) {
+
+    .cajaNosotros {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .infoNosotros,
+    .subt {
+        text-align: initial;
+    }
+
+    .imgNos {
+        width: 380px;
+        order: -1;
+    }
+}
+
+@media screen and (min-width:721px) {
+    .cajaInicio {
+        height: 640px;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    body {
+        margin: 0;
+    }
+
+    .nosotros,
+    .compra,
+    .servicios,
+    .footer {
+        padding-top: 8rem;
+    }
+
+    .nav {
+        height: calc(3rem + 1.5rem);
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .lista {
+        display: flex;
+    }
+
+    .list {
+        margin-left: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    .cajaInicio {
+        height: 100vh;
+        justify-items: center;
+    }
+
+    .cajaServicios,
+    .cajaCompra {
+        margin-top: 3rem;
+    }
+
+    .cajaCompra {
+        grid-template-columns: repeat(3, 210px);
+        column-gap: 4rem;
+    }
+
+    .cajita {
+        padding: 1.5rem;
+    }
+
+    .imgCom {
+        width: 130px;
+    }
+}
+
+@media screen and (min-width:960px) {
+
+    .nav,
+    .nosotros,
+    .compra,
+    .servicios,
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cajaNosotros {
+        column-gap: 7rem;
+    }
+}
